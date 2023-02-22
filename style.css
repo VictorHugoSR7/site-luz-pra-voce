@@ -33,6 +33,12 @@ nav > a {
 }
 
 header > h1 {
+    margin-right: 39vmin;
+    margin-left: 39vmin;
+    color: white;
+    background-color: #98420084;
+    border-radius: 54px;
+    padding: 7px;
     text-shadow: -3px 2px 20px #ffffff38;
     font-size: 3em;
     font-family: 'Lobster Two', cursive;
