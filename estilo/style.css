@@ -5,6 +5,7 @@
 
 * {
     margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,31 +14,8 @@ body {
 }
 
 header {
-    box-shadow: 1px 3px 5px 0px #000000a0;
+    box-shadow: 1px 3px 5px 0px #0000007b;
     background-color: #FF7000;
-}
-
-nav {
-    box-shadow: 1px 1px blue;
-    padding: 7px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #000000;
-    
-}
-
-nav > a {
-    margin: 15px ;
-    color: white;
-    text-decoration: none;
-}
-
-nav > a:hover {
-    color: #000000;
-    background-color: white;
-    font-weight: bolder;
-    padding: 3px;
-    border-radius: 3px;
 }
 
 header > h1 {
@@ -62,10 +40,35 @@ header > p {
     text-align: center;
 }
 
+
+nav {
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.623);
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    
+}
+
+nav > a {
+    margin: 15px ;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: #000000;
+    background-color: white;
+    font-weight: bolder;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
 main {
     border-radius: 7px;
     margin: auto;
-    width: 700px;
+    width: 800px;
     padding: 15px;
     background-color: white;
 }
@@ -115,4 +118,8 @@ span#date-writing {
 mark {
     padding: 3px;
     background-color: #ffb938;
+}
+
+picture {
+    margin: auto;
 }
